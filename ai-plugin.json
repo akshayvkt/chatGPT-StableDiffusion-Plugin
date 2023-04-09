@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Stable Diffusion Plugin",
+  "name_for_model": "image_generation",
+  "description_for_human": "Plugin for generating images from text using Replicate's stable diffusion API.",
+  "description_for_model": "Plugin for generating images from text using Replicate's stable diffusion API. When using the image generation plugin, keep this knowledge in mind. To generate high-quality prompts for Stable Diffusion using ChatGPT, you should follow these three guidelines:\n\nSpecify the image style: Clearly define the artistic style or visual characteristics you want the image to have.\nFix the subject: Define the central subject or focus of the image.\nPrime with examples: Provide example prompts or descriptions that align with your desired output.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://PLUGIN_HOSTNAME/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal"
+}
