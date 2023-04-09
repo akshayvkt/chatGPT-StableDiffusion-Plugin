@@ -1,6 +1,6 @@
 # chatGPT-StableDiffusion-Plugin
 
-**Generate and edit images within chatGPT UI using this plugin
+# Generate and edit images within chatGPT UI using this plugin
 
 Requirements: Access to chatGPT plugins, and a Replicate API key.
 
